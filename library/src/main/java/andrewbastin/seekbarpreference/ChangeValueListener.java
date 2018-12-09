@@ -1,4 +1,4 @@
-package com.pavelsikun.seekbarpreference;
+package andrewbastin.seekbarpreference;
 
 public interface ChangeValueListener {
     boolean onChange(int value);

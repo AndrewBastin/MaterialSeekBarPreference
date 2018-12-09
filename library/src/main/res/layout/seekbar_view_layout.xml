@@ -15,8 +15,9 @@
         android:maxLines="1"
         android:textSize="16sp"
         android:textColor="?android:attr/textColorPrimary"
-        android:ellipsize="marquee"
-        android:fadingEdge="horizontal"/>
+        android:singleLine="true"
+        android:fadingEdge="horizontal"
+        android:layout_marginStart="16dp" />
 
     <TextView
         android:id="@android:id/summary"
@@ -25,7 +26,8 @@
         android:layout_marginLeft="16dp"
         android:textSize="14sp"
         android:textColor="?android:attr/textColorSecondary"
-        android:maxLines="10"/>
+        android:maxLines="10"
+        android:layout_marginStart="16dp" />
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -50,7 +52,10 @@
             android:gravity="center"
             android:clickable="true"
             android:background="?attr/selectableItemBackgroundBorderless"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:layout_alignParentEnd="true"
+            android:layout_toEndOf="@id/seekbar"
+            android:focusable="true">
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -74,9 +79,9 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textSize="14sp"
-                        android:maxLines="1"
                         android:ellipsize="marquee"
-                        android:textColor="?android:attr/textColorSecondary"/>
+                        android:textColor="?android:attr/textColorSecondary"
+                        android:singleLine="true" />
                 </LinearLayout>
 
                 <FrameLayout

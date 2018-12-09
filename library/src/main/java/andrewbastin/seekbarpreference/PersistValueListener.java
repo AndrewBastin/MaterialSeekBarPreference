@@ -1,4 +1,4 @@
-package com.pavelsikun.seekbarpreference;
+package andrewbastin.seekbarpreference;
 
 /**
  * Created by Pavel Sikun on 21.05.16.

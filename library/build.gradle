@@ -1,14 +1,15 @@
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 26
-    buildToolsVersion '26.0.1'
+    compileSdkVersion 28
 
     defaultConfig {
         minSdkVersion 14
-        targetSdkVersion 26
+        targetSdkVersion 28
         versionCode 14
         versionName "2.3.1"
+
+        vectorDrawables.useSupportLibrary true
     }
 
     lintOptions {
@@ -17,12 +18,12 @@ android {
 }
 
 dependencies {
-    compile 'com.android.support:appcompat-v7:26.0.0'
-    compile 'com.android.support:preference-v7:26.0.0'
+    compile 'androidx.appcompat:appcompat:1.1.0-alpha01'
+    compile 'androidx.preference:preference:1.1.0-alpha01'
 }
 
 ext {
-    PUBLISH_GROUP_ID = 'com.pavelsikun'
+    PUBLISH_GROUP_ID = 'andrewbastin'
     PUBLISH_ARTIFACT_ID = 'material-seekbar-preference'
     PUBLISH_VERSION = '2.3.1'
 }

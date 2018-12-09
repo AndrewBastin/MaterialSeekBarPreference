@@ -1,4 +1,4 @@
-package com.pavelsikun.seekbarpreference;
+package andrewbastin.seekbarpreference;
 
 import android.annotation.TargetApi;
 import android.content.Context;

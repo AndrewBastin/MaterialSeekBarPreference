@@ -1,4 +1,4 @@
-package com.pavelsikun.seekbarpreference;
+package andrewbastin.seekbarpreference;
 
 import android.content.Context;
 import android.content.res.TypedArray;
